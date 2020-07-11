@@ -108,7 +108,6 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Column(
         children: <Widget>[
           Container(
-              // margin: const EdgeInsets.all(10.0),
               color: hexToColor('#9FBEC3'),
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height * 0.45,
@@ -140,13 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ])),
           Container(
-              padding: const EdgeInsets.all(10.0),
-
-              // color: hexToColor('#F9FBFB'),
-              decoration: BoxDecoration(
-                color: hexToColor('#F9FBFB'),
-                borderRadius: BorderRadius.circular(50),
-              ),
+              padding: const EdgeInsets.all(15.0),
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height * 0.50,
               child: GridButton(
@@ -201,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         value: "+-",
                         color: hexToColor('#9FBEC3'),
                         textStyle:
-                            TextStyle(color: Colors.white, fontSize: 30)),
+                            TextStyle(color: Colors.white, fontSize: 25)),
                     GridButtonItem(
                         borderRadius: 10,
                         title: "%",
